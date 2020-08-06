@@ -41,11 +41,11 @@ class Harfbuzz < Formula
       -Dcairo=enabled
       -Dcoretext=enabled
       -Dfreetype=enabled
-      -Dglib=enabled
-      -Dgobject=enabled
+      -Dglib=disabled
+      -Dgobject=disabled
       -Dgraphite=enabled
       -Dicu=enabled
-      -Dintrospection=enabled
+      -Dintrospection=disabled
     ]
 
     mkdir "build" do
